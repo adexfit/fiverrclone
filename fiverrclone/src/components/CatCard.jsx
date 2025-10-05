@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function CatCard({ card }) {
+const CatCard = ({ card }) => {
   return (
     <Link to="/gigs?cat=design">
       <div className="w-[252px] h-[344px] text-white rounded relative cursor-pointer">
@@ -19,6 +19,6 @@ function CatCard({ card }) {
       </div>
     </Link>
   );
-}
+};
 
 export default CatCard;
