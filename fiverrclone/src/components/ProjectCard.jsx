@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard({ card }) {
+const ProjectCard = ({ card }) => {
   return (
     <div className="w-[300px] h-[300px] rounded-md overflow-hidden cursor-pointer border border-[#e1e1e1]">
       <img src={card.img} alt="" className="w-full h-[70%] object-cover" />
@@ -17,6 +17,6 @@ function ProjectCard({ card }) {
       </div>
     </div>
   );
-}
+};
 
 export default ProjectCard;
