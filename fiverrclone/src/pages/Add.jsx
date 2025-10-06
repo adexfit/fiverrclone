@@ -8,7 +8,6 @@ const Add = () => {
           Add New Gig
         </h1>
         <div className="flex justify-between gap-24">
-          {/* Left Section */}
           <div className="flex-1 flex flex-col gap-3 justify-between">
             <label className="text-gray-500 text-lg">Title</label>
             <input
@@ -51,7 +50,6 @@ const Add = () => {
             </button>
           </div>
 
-          {/* Right Section */}
           <div className="flex-1 flex flex-col gap-3 justify-between">
             <label className="text-gray-500 text-lg">Service Title</label>
             <input
