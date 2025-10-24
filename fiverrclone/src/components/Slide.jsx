@@ -4,7 +4,7 @@ import Slider from "infinite-react-carousel";
 const Slide = ({ children, slidesToShow, arrowsScroll }) => {
   return (
     <div className="flex justify-center py-24">
-      <div className="w-[1400px] relative">
+      <div className="w-full relative">
         <Slider
           slidesToShow={slidesToShow}
           arrowsScroll={arrowsScroll}

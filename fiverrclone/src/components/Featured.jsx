@@ -3,7 +3,7 @@ import React from "react";
 const Featured = () => {
   return (
     <div className="h-[600px] flex justify-center bg-[#013914] text-white">
-      <div className="w-[1400px] flex items-center">
+      <div className="w-full px-5 lg:px-10 flex items-center">
         {/* Left Section */}
         <div className="flex flex-col gap-[30px]">
           <h1 className="text-[50px]">

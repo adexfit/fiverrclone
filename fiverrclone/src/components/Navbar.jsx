@@ -32,7 +32,7 @@ const Navbar = () => {
           : "bg-[#013914] text-white"
       }`}
     >
-      <div className="w-full flex items-center justify-between py-5">
+      <div className="w-full flex items-center justify-between py-5 px-5 lg:px-10">
         {/* Logo */}
         <div className="text-[34px] font-bold flex items-center">
           <Link className="link" to="/">
@@ -100,7 +100,7 @@ const Navbar = () => {
       {(active || pathname !== "/") && (
         <>
           <hr className="w-[calc(100%-2px)] border-t border-b border-[#ebe9e9]" />
-          <div className="w-full py-2 flex justify-between text-gray-500 font-light font-montserrat">
+          <div className="w-full py-2 px-5 lg:px-10 flex justify-between text-gray-500 font-light font-montserrat">
             <Link className="link menuLink" to="/">
               Graphics & Design
             </Link>

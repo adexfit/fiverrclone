@@ -19,7 +19,7 @@ function Home() {
       </Slide>
 
       <div className="bg-[#f1fdf7] flex justify-center py-24">
-        <div className="w-[1400px] flex items-center gap-[200px]">
+        <div className="w-full flex items-center gap-[200px]">
           <div className="flex flex-col gap-4 flex-[2]">
             <h1 className="font-medium mb-2">
               A whole world of freelance talent at your fingertips
