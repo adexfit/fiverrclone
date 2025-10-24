@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
-import { gigs } from "../../data";
-import GigCard from "../../components/gigCard/GigCard";
+import { gigs } from "../data";
+import GigCard from "../components/GigCard";
 
 const Gigs = () => {
   const [sort, setSort] = useState("sales");
